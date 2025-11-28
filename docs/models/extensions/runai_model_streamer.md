@@ -7,7 +7,7 @@ vLLM supports loading weights in Safetensors format using the Run:ai Model Strea
 You first need to install vLLM RunAI optional dependency:
 
 ```bash
-pip3 install vllm[runai]
+pip install vllm[runai]
 ```
 
 To run it as an OpenAI-compatible server, add the `--load-format runai_streamer` flag:
